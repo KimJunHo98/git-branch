@@ -11,4 +11,4 @@
 1. 파일 수정
 2. git add .
 3. git commit -m "로컬에서 수정 ver2"
-4. 
+4. git push origin main
