@@ -22,6 +22,7 @@
 1. git remote add origin 원격저장소주소
 2. pull 하기
 3. "git pull origin 브랜치명"
+
 🔑 항상 최신 커밋을 pull 한 다음 push한다.
 ## 팀원별 브랜치 만들기
 1. 팀원별 브랜치 생성하기 (로컬저장소에서 진행)
