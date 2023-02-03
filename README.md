@@ -32,19 +32,53 @@
 
   git commit -m "" 
 
-## 처음 작업할 때
+## 처음 작업할 때 <git init>
 ```
-1. git clone 원격저장소 주소
-2. git switch -c 사용할 브랜치 이름
-3. 작업
-4. git pull origin 풀 할 브랜치이름
+1. 파일 생성
+2. git init 레포리토지 이름
+3. git config user.name "깃허브 이름"
+4. git config user.email "깃허브에 이메일"
+5. git remote add origin 원격저장소주소
+6. git pull origin 풀 할 브랜치이름
+7. git switch -c 사용할 브랜치 이름
+8. 작업
+9. git add .
+10. git commit -m ""
+11. git pull origin 풀 할 브랜치이름
+12. git switch 풀 했던 브랜치 이름
+13. git merge 스위치 했던 브랜치 이름
+14. git add .
+15. git commit -m ""
+16. git push origin 풀 했던 브랜치 이름
+```
+## 처음 작업할 때 <git clone>
+```
+1. 파일 생성
+2. git clone 원격저장소 주소
+3. git switch -c 사용할 내 브랜치 이름
+4. 작업
 5. git add .
 6. git commit -m ""
+7. git pull origin 풀 할 브랜치이름
+8. git switch 풀 했던 브랜치 이름
+9. git merge 자신의 브랜치 이름
+10. git add .
+11. git commit -m ""
+12. git push origin 풀 했던 브랜치 이름
+```
+## 수정 할 때 
+```
+1. git switch 내 브랜치 이름
+2. git pull origin 풀 할 브랜치이름
+3. 작업
+4. git add .
+5. git commit -m ""
+6. git pull origin 풀 할 브랜치이름
 7. git switch 풀 했던 브랜치 이름
 8. git merge 자신의 브랜치 이름
-5. git add .
-6. git commit -m ""
-9. git push origin 풀 했던 브랜치 이름
+9. git add .
+10. git commit -m ""
+11. git push origin 풀 했던 브랜치 이름
 ```
 ## 팀원별 브랜치 병합
 1. 원격저장소의 main 브랜치 최신 커밋을 pull 한다.
