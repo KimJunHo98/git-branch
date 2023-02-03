@@ -30,12 +30,26 @@
 
   git add .
 
-  git commit -m ""
+  git commit -m "" 
 
+## 처음 작업할 때
+```
+1. git clone 원격저장소 주소
+2. git switch -c 사용할 브랜치 이름
+3. 작업
+4. git pull origin 풀 할 브랜치이름
+5. git add .
+6. git commit -m ""
+7. git switch 풀 했던 브랜치 이름
+8. git merge 자신의 브랜치 이름
+5. git add .
+6. git commit -m ""
+9. git push origin 풀 했던 브랜치 이름
+```
 ## 팀원별 브랜치 병합
 1. 원격저장소의 main 브랜치 최신 커밋을 pull 한다.
 2. 나의 로컬 브랜치의 최신버전과 merge 후 push 한다.
-
+```
    git switch main
 
    git merge 내브랜치
@@ -44,4 +58,5 @@
 
    git commit -m ""
 
-   git push origin main  
+   git push origin main 
+```
