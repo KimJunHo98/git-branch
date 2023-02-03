@@ -32,7 +32,7 @@
 
   git commit -m "" 
 
-## 처음 작업할 때 <git init>
+## 처음 작업할 때 (git init)
 ```
 1. 파일 생성
 2. git init 레포리토지 이름
